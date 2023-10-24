@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.2.5)
 project(ProjectTemplate VERSION 0.0.1
   DESCRIPTION "GoogleTest Project Template"
-  LANGUAGES CXX)
+  LANGUAGES CXX C)
 
 # Update submodules automatically
 include(cmake/UpdateSubmodules.cmake)
